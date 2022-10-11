@@ -1,0 +1,15 @@
+Revisa la clase StdStats.java y modifica los parámetros del método StdDraw.setXscale(-1, n); ,
+prueba con (-n, n) y vas observando como se ve. Lo mismo en plotLines ….
+Tambien variar la escala en Y para que se grafique la parte negativa en los casos que se requiera.
+
+    public static void plotPoints(double[] a) {
+        validateNotNull(a);
+        int n = a.length;
+        StdDraw.setXscale(-1, n);				<——— esta es la instrucción donde cambiar los valores en X.
+		StdDraw.setYscale(-1, n);				<--- agregar esta instruccion para la escala en los valores de Y.
+        StdDraw.setPenRadius(1.0 / (3.0 * n));
+        for (int i = 0; i < n; i++) {
+            StdDraw.point(i, a[i]);
+        }
+    }
+

@@ -1,0 +1,22 @@
+
+
+for (int i = 0; i < args.length; i++) {System.out.println(args[i]);}
+
+
+MiLista ml = new MiLista();
+
+for (Node n = head; n != null; n = n.getNext()) {System.out.println(n.getElement());}
+
+Node n = head;
+while (n != null) {
+	System.out.println(n.getElement());
+	n = n.getNext();
+}
+
+private String rRLista(Lista l, Node n)
+{
+	if (n == null) return;
+	return nRLista(l, n.getNext()) + n.getElement() + " ";
+}
+
+String listota = rRLista(ListaAnimales, head);

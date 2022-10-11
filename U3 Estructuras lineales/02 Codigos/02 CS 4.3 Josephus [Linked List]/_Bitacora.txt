@@ -1,0 +1,4 @@
+Ejecucion:	Josephus #Soldados Salto SoldadoInicial
+
+Ejemplo:		Josephus 41 3 1
+			41 soldados, contando de 3 en tres e iniciando con el soldado 1

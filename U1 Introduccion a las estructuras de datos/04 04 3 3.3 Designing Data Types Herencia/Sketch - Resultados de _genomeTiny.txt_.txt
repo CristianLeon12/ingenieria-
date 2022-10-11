@@ -1,0 +1,16 @@
+MacBook-Pro-de-arturo:herencia arturo$ javac Sketch.java
+MacBook-Pro-de-arturo:herencia arturo$ java Sketch 2 16 < genomeTiny.txt
+Longitud del texto: 33
+Contenido del texto
+ATAGATGCATAGCGCATAGCTAGATGTGCTAGC
+Lista de kgramas
+(3)AT,(13)TA,(6)AG,(10)GA,(3)AT,(3)TG,(12)GC,(14)CA,(3)AT,(13)TA,(6)AG,
+(12)GC,(4)CG,(12)GC,(14)CA,(3)AT,(13)TA,(6)AG,(12)GC,(1)CT,(13)TA,
+(6)AG,(10)GA,(3)AT,(3)TG,(13)GT,(3)TG,(12)GC,(1)CT,(13)TA,(6)AG,
+(12)GC,
+Lista de frecuencias acumuladas
+[0.0, 2.0, 0.0, 8.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0, 0.0, 6.0, 6.0, 2.0, 0.0]
+Direcciones del vector de frecuencias:
+(0.0, 0.15161960871578067, 0.0, 0.6064784348631227, 0.07580980435789034, 0.0, 0.37904902178945166,
+ 0.0, 0.0, 0.0, 0.15161960871578067, 0.0, 0.454858826147342, 0.454858826147342, 0.15161960871578067, 0.0)
+MacBook-Pro-de-arturo:herencia arturo$ 
